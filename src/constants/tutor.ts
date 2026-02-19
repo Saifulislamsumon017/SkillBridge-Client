@@ -1,0 +1,4 @@
+export enum TUTOR_STATUS {
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
+}
