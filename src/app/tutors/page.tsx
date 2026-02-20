@@ -1,4 +1,4 @@
-import TutorsContainer from '@/components/TutorsComponents/TutorsContainer';
+import TutorsContainer from '@/components/TutorsComponents/turors/TutorsContainer';
 import React from 'react';
 
 const TutorsPage = () => {

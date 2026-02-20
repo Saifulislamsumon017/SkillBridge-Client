@@ -3,10 +3,9 @@
 
 import { useEffect, useState } from 'react';
 import { ITutorProfile } from '@/interfaces/tutor.interface';
-
-import TutorCard from './TutorCard';
-import TutorFilters from './TutorFilters';
 import { fetcher } from '@/api/fetcher.api';
+import TutorFilters from './TutorFilters';
+import TutorCard from './TutorCard';
 
 const TutorsContainer = () => {
   const [tutors, setTutors] = useState<ITutorProfile[]>([]);
