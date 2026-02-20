@@ -1,10 +1,9 @@
-import { Button } from '@/components/ui/button';
-import React from 'react';
+import HeroSection from '@/components/ui/homeComponets/HeroSection';
 
 const HomePage = () => {
   return (
-    <div>
-      <Button>Call me</Button>
+    <div className="max-w-7xl mx-auto">
+      <HeroSection />
     </div>
   );
 };
